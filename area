@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a;
+    int b;
+    int area;
+    
+    printf("Escriba la base: ");
+    scanf("%d", &a);
+    
+    printf("Escriba la altura: ");
+    scanf("%d", &b);
+    
+    area = a * b; 
+    
+    if (b == a){
+        printf("es un cuadrado \n");
+    } else {
+        printf("el area del rectangulo es %d * %d: %d\n", a, b, area);
+    }
+    
+    return 0;
+}
